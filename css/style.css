@@ -1,3 +1,27 @@
+/*  regole di reset  */
+
 * {
-    background-color: aquamarine;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* regole header  */
+
+.header {
+   max-width: 70%;
+   text-align: center;
+   margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* regole di debug  */
+.debug *{
+    border: 2px solid red;
+
 }
