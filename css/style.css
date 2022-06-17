@@ -9,7 +9,7 @@
 
 /* regole header  */
 
-.header {
+.header, .container {
     text-align: center;
     padding-bottom: 40px;
     max-width: 900px;
@@ -34,9 +34,6 @@
 
 /* regole main  */
 
-.container {
-    max-width: 900px;
-}
 
 .column {
     float: left;
@@ -51,29 +48,17 @@
     line-height: 1.6;
 }
 
-/* .container::after {
-    content:'';
-    display: table;
-    clear: both; 
-}  */
-
- .row::after {
-    content:'';
-    display:  table;
-    clear: both; 
-} 
-
-.card::after {
-    content:'';
-    display: table;
-    clear: both;
-}
-
 .card-img {
     float: left;
     height: 90px;
     width: 90px; 
     margin-right: 10px; 
+}
+
+.clearfix::after {
+    content:'';
+    display: table;
+    clear: both;
 }
 
 .card-name {
